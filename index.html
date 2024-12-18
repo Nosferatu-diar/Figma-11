@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Figma-11</title>
+		<link
+			rel="stylesheet"
+			href="https://unpkg.com/swiper/swiper-bundle.min.css"
+		/>
+
+		<link rel="stylesheet" href="./src/output.css" />
+	</head>
+	<body>
+		<!-- header -->
+		<header
+			class="flex w-[90%] m-auto max-w-[1440px] pt-5 pb-5 justify-between items-center"
+		>
+			<div class="flex items-center gap-5">
+				<img src="./assets/svg/logoESTES.svg" alt="Logo" />
+				<p class="text-[#646562] leading-5">
+					Официальный партнер <br />
+					АО «ИНТЕКО»
+				</p>
+			</div>
+			<p class="text-lg font-semibold">
+				+7 495 845 19 34 <br />
+				<span class="text-[#a0a747]"> работаем</span>
+			</p>
+		</header>
+
+		<!-- showcase -->
+		<section
+			class="flex flex-col w-[90%] m-auto max-w-[1440px] pt-10 pb-10 justify-between items-center"
+		>
+			<div class="flex flex-col items-center gap-5">
+				<img src="./assets/svg/LogoWestG.svg" alt="Logo" />
+				<p class="text-5xl font-bold text-[#1a1a1a] text-center">
+					Жизнь в зеленом оазисе <br />
+					в статусном районе Москвы
+				</p>
+				<p class="text-xl text-[#1a1a1a] underline">
+					Жилой комплекс бизнес-класса в 20 минутах от Кремля
+				</p>
+			</div>
+			<div class="pt-14">
+				<img src="./assets/img/main.png" alt="main" />
+			</div>
+			<div class="flex flex-col items-center gap-5 pt-20">
+				<div class="flex items-center justify-center gap-5">
+					<img class="w-[32%]" src="./assets/img/home1.png" alt="home" />
+					<img class="w-[32%]" src="./assets/img/home2.png" alt="home" />
+				</div>
+				<div class="flex items-center justify-center gap-5">
+					<img class="w-[32%]" src="./assets/img/home3.png" alt="home" />
+					<img class="w-[32%]" src="./assets/img/home4.png" alt="home" />
+				</div>
+			</div>
+			<div class="flex flex-col items-center pt-20">
+				<p class="text-lg text-[#1a1a1a]">Престижное расположение</p>
+				<p class="text-[#1a1a1a] text-5xl font-bold text-center">
+					Один из самых зелёных <br />
+					районов столицы — Раменки
+				</p>
+				<img class="w-[90%] pt-10" src="./assets/img/Map.png" alt="map" />
+				<p class="text-[#1a1a1a] text-lg text-center pt-10 pb-5">
+					ЖК West Garden окружен Матвеевским лесом, набережной реки <br />
+					Раменки и природным заказником «Долина реки Сетунь»
+				</p>
+				<button
+					class="text-[#773844] py-2 px-10 rounded-xl flex items-center gap-5 border border-[#773844] hover:bg-orange-200"
+				>
+					<img src="./assets/svg/img.svg" alt="img" /> Панорама района 360˚
+				</button>
+			</div>
+		</section>
+
+		<!-- swiper -->
+		<section
+			class="flex flex-col w-[90%] m-auto max-w-[1440px] pt-20 pb-10 items-center"
+		>
+			<p class="text-5xl text-[#1a1a1a] font-bold text-center">
+				Наслаждайтесь видами <br />
+				из окон своей квартиры
+			</p>
+			<!-- swiper -->
+			<div dir="rtl" class="swiper mySwiper pt-16">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide">
+						<img src="./assets/img/city.png" alt="city" />
+					</div>
+					<div class="swiper-slide">
+						<img src="./assets/img/city.png" alt="city" />
+					</div>
+					<div class="swiper-slide">
+						<img src="./assets/img/city.png" alt="city" />
+					</div>
+				</div>
+				<div class="swiper-button-next"></div>
+				<div class="swiper-button-prev"></div>
+				<div class="swiper-pagination"></div>
+			</div>
+
+			<div class="flex items-center justify-center pl-[300px] pt-20">
+				<div class="flex flex-col gap-4">
+					<p class="text-[#773844] text-sm">СПЕЦИАЛЬНО ДЛЯ ВАС</p>
+					<p class="text-3xl font-bold text-[#1a1a1a]">
+						Персональная <br />
+						презентация West Garden
+					</p>
+					<p
+						class="flex items-center gap-6 text-[#1a1a1a] text-[20px] font-[400px]"
+					>
+						<img src="./assets/svg/arrowRight.svg" alt="arrow" />Подробно
+						расскажем про жилой комплекс
+					</p>
+					<p
+						class="flex items-center gap-6 text-[#1a1a1a] text-[20px] font-[400px]"
+					>
+						<img src="./assets/svg/arrowRight.svg" alt="arrow" />Ознакомитесь со
+						всеми планировками и ценами
+					</p>
+					<p
+						class="flex items-center gap-6 text-[#1a1a1a] text-[20px] font-[400px]"
+					>
+						<img src="./assets/svg/arrowRight.svg" alt="arrow" />Прогуляетесь по
+						благоустроенной набережной
+					</p>
+					<div class="flex flex-col gap-1 border-t pt-5 pb-3 border-gray-400">
+						<p class="text-sm">Закрепить за номером</p>
+						<div class="flex items-center gap-4 pb-7">
+							<div
+								class="flex items-center gap-1 border rounded-xl border-black px-4 py-2"
+							>
+								<label for="q">+7</label>
+								<input
+									class="outline-none border-none"
+									type="tell"
+									name="q"
+									id="q"
+									placeholder="___ ___-__-__"
+								/>
+							</div>
+							<button class="text-white bg-[#773844] px-5 py-2 rounded-xl">
+								Записаться на презентацию
+							</button>
+						</div>
+						<p class="text-[646562] text-sm">
+							Нажимая на кнопку, вы даёте согласие на обработку персональных
+							данных и соглашаетесь <br />c политикой конфиденциальности
+						</p>
+					</div>
+				</div>
+				<div>
+					<img class="w-[90%]" src="./assets/img/Woman.png" alt="bitch" />
+				</div>
+			</div>
+		</section>
+
+		<!-- JavaScript -->
+		<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+		<script>
+			var swiper = new Swiper('.mySwiper', {
+				navigation: {
+					nextEl: '.swiper-button-next',
+					prevEl: '.swiper-button-prev',
+				},
+				pagination: {
+					el: '.swiper-pagination',
+					clickable: true,
+				},
+				autoplay: {
+					delay: 1500,
+					disableOnInteraction: false,
+				},
+			})
+		</script>
+	</body>
+</html>
